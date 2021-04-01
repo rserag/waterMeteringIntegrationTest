@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "Satron Development Backend",
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}

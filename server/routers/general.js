@@ -3,6 +3,7 @@ const router = require('express').Router(),
 
 	controller = require('../controllers/general')
 
+router.post('/ttn', controller.ttn)
 
 router.get('/statistics', controller.stats)
 

@@ -20,6 +20,6 @@ console.log(`${process.env.PREFIX}`);
 
 app.use(`${process.env.PREFIX}/`, require('./routers/Router'))
 
-server.listen(port, () => {
+server.listen(port, "2a01:4f8:150:6267::8", () => {
 	console.log(`Server running on port: ${port}`);
 })
